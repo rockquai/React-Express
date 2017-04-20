@@ -10,11 +10,6 @@ const defaultProps = {
 };
 
 class Value extends React.Component {
-
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div>

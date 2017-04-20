@@ -12,7 +12,10 @@
 
 ---
 
-### 4. Action
+### 4. Action <br>
+: 작업에 대한 정보를 지니고 있는 `객체` <br>
+
+#### 필요한 액션은?
 1. 값을 `증가` 시키기 (+1) : INCREMENT
 2. 값을 `감소` 시키기 (-1) : DECREMENT
 3. 새로운 색상 설정하기 : SET_COLOR
@@ -25,10 +28,10 @@
 
 ```js
 // action 형태
-{ type: "INCREMENT" }
-{ type: "DECREMENT" }
+{ type: "INCREMENT" } // 이 부분에서는 action에서 추가적인 정보가 필요가 없다
+{ type: "DECREMENT" } // 이 부분에서는 action에서 추가적인 정보가 필요가 없다
 { type: "SET_COLOR",
-  color: [200,200,200] // 배열로 RGB
+  color: [200,200,200] // 색상을 새로운 값을 설정이 필요. color:[200,200,200] 배열로 RGB 표현
 }
 ```
 
