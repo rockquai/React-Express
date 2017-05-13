@@ -4,7 +4,7 @@
 # Index
 - `01-03.React-Basie` props, state, component
 - `04.React-Contact` 주소록(Contact) 만들기
-- `05React-Redux` Redux
+- `05.React-Redux` 카운트(Counter) 만들기
 
 ## 자료
 - [React.JS 강좌 목록](https://velopert.com/reactjs-tutorials)
